@@ -154,6 +154,18 @@
                   <span style="color: red;">1111111</span>
                 </div>
                 <div class="mb-3">
+                  <label for="id" class="form-label">USERNAME</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your name"
+                    autofocus
+                  />
+                  <span style="color: red;">1111111</span>
+                </div>
+                <div class="mb-3">
                   <label for="email" class="form-label">Email</label><br>
                   <input type="text" class="form-control w-auto d-inline" id="email" name="email" placeholder="Enter your email" />
                     <select class="form-select w-auto float-end" aria-label="Default select example">
@@ -165,6 +177,20 @@
                   <br>
                   <span style="color: red">22222</span>
                 </div>
+                
+                <div class="mb-3">
+                  <label for="id" class="form-label">Telephone</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="telephone"
+                    name="telephone"
+                    placeholder="Enter your phone (- 없이 숫자만 입력하세요)"
+                    autofocus
+                  />
+                  <span style="color: red;">1111111</span>
+                </div>
+                
                 <div class="mb-3 form-password-toggle">
                   <label class="form-label" for="password">Password</label>
                   <div class="input-group input-group-merge">
