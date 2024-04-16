@@ -148,12 +148,12 @@
                     class="form-control"
                     id="user_id"
                     name="userId"
-                    placeholder="UserID"
+                    placeholder="userId"
                     autofocus
                   />
-                  <label for="user_id">userID</label>
+                  <label for="user_id">userId</label>
                 </div>
-                <div class="form-floating input-group input-group-merge">
+                <div class="form-floating">
                     <input
                       type="password"
                       class="form-control"
@@ -161,9 +161,9 @@
                       name="password"
                       placeholder="password"
                     />
-	                <label for="password">Password</label>
-                    <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+	                <label for="password">password</label>
                  </div>
+         
                 <div class="d-flex justify-content-end mt-2">
                   <a href="/test/test">
                     <small>Forgot Password?</small>
